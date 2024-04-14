@@ -17,16 +17,16 @@ function Header() {
           >
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
-          <span class="ml-3 text-xl">Tailblocks</span>
+          <span class="ml-3 text-xl">Mary</span>
         </a>
         <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-          <a class="mr-5 hover:text-gray-900">First Link</a>
-          <a class="mr-5 hover:text-gray-900">Second Link</a>
-          <a class="mr-5 hover:text-gray-900">Third Link</a>
-          <a class="mr-5 hover:text-gray-900">Fourth Link</a>
+          <a href="#taro" class="mr-5 hover:text-gray-900">Таро</a>
+          <a href="#reiki" class="mr-5 hover:text-gray-900">Рейки</a>
+          <a href="#matrica" class="mr-5 hover:text-gray-900">Матрица судьбы</a>
+          <a href="#testimonials" class="mr-5 hover:text-gray-900">Отзывы</a>
         </nav>
-        <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-          Button
+        <a href="#contact" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+          Контакты
           <svg
             fill="none"
             stroke="currentColor"
@@ -38,7 +38,7 @@ function Header() {
           >
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
-        </button>
+        </a>
       </div>
     </header>
   );
