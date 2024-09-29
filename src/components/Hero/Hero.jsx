@@ -7,7 +7,7 @@ function Hero() {
       <section class="text-gray-600 body-font">
         <h1 class="title-font cursive sm:text-4xl text-3xl mt-6 font-medium text-gray-900">
           Привет, меня зовут Мария!
-          <br class="hidden lg:inline-block" />Я - таролог, эмпант, нумеролог,
+          <br />Я - таролог, эмпант, нумеролог,
           мастер Рейки
         </h1>
         <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
