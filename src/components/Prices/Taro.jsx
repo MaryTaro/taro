@@ -75,7 +75,7 @@ function Taro() {
       {/* Цена на таро */}
 
       <section class="text-gray-600 body-font overflow-hidden">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-12 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
             <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">
               Стоимость услуг
@@ -157,7 +157,7 @@ function Taro() {
                   </span>
                   3 вопроса и более - от 50 €
                 </p>
-                <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
+                <a href="#contact" class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                   Заказать
                   <svg
                     fill="none"
@@ -170,7 +170,7 @@ function Taro() {
                   >
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </button>
+                </a>
                 <p class="text-xs text-gray-500 mt-3">
                   Стоимость консультации всегда зависит от сложности и
                   количества вопросов. Конечную стоимость лучше уточнить при
@@ -223,7 +223,7 @@ function Taro() {
                   предупредили заранее или его можно добавить по тарифу<br/>
                   (обязательно предупредив заранее).
                 </p>
-                <button class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">
+                <a href="#contact" class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded">
                   Заказать
                   <svg
                     fill="none"
@@ -236,7 +236,7 @@ function Taro() {
                   >
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </button>
+                </a>
                 <p class="text-xs text-gray-500 mt-3">
                   Личные консультации всегда только по предварительной записи
                 </p>

@@ -88,7 +88,9 @@ function Services() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font text-left font-medium">Работа с МАК</span>
+                <span class="title-font text-left font-medium">
+                  Работа с МАК
+                </span>
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full">
@@ -105,7 +107,9 @@ function Services() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font text-left font-medium">Толкование снов</span>
+                <span class="title-font text-left font-medium">
+                  Толкование снов
+                </span>
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full">
@@ -128,9 +132,12 @@ function Services() {
               </div>
             </div>
           </div>
-          <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+          <a
+            href="#contact"
+            className="inline-flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+          >
             Узнай себя
-          </button>
+          </a>
         </div>
       </section>
     </>

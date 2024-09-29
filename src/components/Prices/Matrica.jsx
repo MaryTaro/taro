@@ -61,7 +61,7 @@ function Matrica() {
       {/* Цены на расчет матрицы судьбы */}
 
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-12 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
             <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">
               Стоимость (разные пакеты)
@@ -290,7 +290,7 @@ function Matrica() {
                   </p>
                 </div>
               </div>
-              <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
+              <a href="#contact" class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                 Заказать
                 <svg
                   fill="none"
@@ -303,7 +303,7 @@ function Matrica() {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </button>
+              </a>
               <p class="text-xs text-gray-500 mt-3">
                 *ВАЖНО - не распространяется на прогноз энергии на 5 лет и более
               </p>
