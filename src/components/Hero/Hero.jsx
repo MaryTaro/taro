@@ -5,22 +5,24 @@ function Hero() {
   return (
     <>
       <section class="text-gray-600 body-font">
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <h1 class="title-font cursive sm:text-4xl text-3xl mt-6 font-medium text-gray-900">
+          Привет, меня зовут Мария!
+          <br class="hidden lg:inline-block" />Я - таролог, эмпант, нумеролог,
+          мастер Рейки
+        </h1>
+        <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              Привет, меня зовут Мария!
-              <br class="hidden lg:inline-block" />Я - таролог, эмпант,
-              нумеролог, мастер Рейки
-            </h1>
             <p class="mb-8 leading-relaxed">
               Главное, что вы должны знать обо мне - я смогу помочь вам
               разобраться в сложной ситуации.
-              </p>
-              <p class="mb-8 leading-relaxed"> Свою работу с картами Таро я начала в конце августа 2016
-              года. Уже на протяжении 7 лет я помогаю людям со всего мира,
-              отвечая на волнующие вопросы с помощью карт.
-              </p>
-              <p class="mb-8 leading-relaxed">
+            </p>
+            <p class="mb-8 leading-relaxed">
+              {" "}
+              Свою работу с картами Таро я начала в конце августа 2016 года. Уже
+              на протяжении 7 лет я помогаю людям со всего мира, отвечая на
+              волнующие вопросы с помощью карт.
+            </p>
+            <p class="mb-8 leading-relaxed">
               <li>
                 Я могу растолковать ваш сон. И определить есть ли в нем
                 смысловая нагрузка.
