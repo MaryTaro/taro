@@ -31,7 +31,7 @@ function Services() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font font-medium">
+                <span class="title-font text-left font-medium">
                   Таро консультации - прогнозы и анализ ситуаций
                 </span>
               </div>
@@ -50,7 +50,7 @@ function Services() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font font-medium">
+                <span class="title-font text-left font-medium">
                   Сеансы Рейки (очно и дистанционно)
                 </span>
               </div>
@@ -69,7 +69,7 @@ function Services() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font font-medium">
+                <span class="title-font text-left font-medium">
                   Расчет матрицы судьбы
                 </span>
               </div>
@@ -88,7 +88,7 @@ function Services() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font font-medium">Работа с МАК</span>
+                <span class="title-font text-left font-medium">Работа с МАК</span>
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full">
@@ -105,7 +105,7 @@ function Services() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font font-medium">Толкование снов</span>
+                <span class="title-font text-left font-medium">Толкование снов</span>
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full">
@@ -122,7 +122,7 @@ function Services() {
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font font-medium">
+                <span class="title-font text-left font-medium">
                   Обереги и талисманы (заряжаю энергией Рейки)
                 </span>
               </div>

@@ -125,7 +125,7 @@ function Taro() {
                   </span>
                   1 вопрос развернутый ответ - 20 €
                 </p>
-                <p class="flex items-center text-gray-600 mb-6">
+                <p class="flex items-center text-gray-600 mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
@@ -141,7 +141,7 @@ function Taro() {
                   </span>
                   2 вопроса развернуто - от 35 €
                 </p>
-                <p class="flex items-center text-gray-600 mb-6">
+                <p class="flex items-center text-gray-600 mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
@@ -205,8 +205,8 @@ function Taro() {
                   </span>
                   длительность 1,5 часа - 80€
                 </p>
-                <p class="flex items-center text-gray-600 mb-2">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <p class="flex text-left text-gray-600 mb-2">
+                  <span class="w-4 h-4 mt-1 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -220,7 +220,7 @@ function Taro() {
                     </svg>
                   </span>
                   в оплаченное время может входить Сеанс Рейки (20 мин) если
-                  предупредили заранее или его можно добавить по тарифу
+                  предупредили заранее или его можно добавить по тарифу<br/>
                   (обязательно предупредив заранее).
                 </p>
                 <button class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">

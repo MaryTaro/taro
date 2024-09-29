@@ -265,8 +265,8 @@ function Reiki() {
                   </span>
                   Защитный оберег - 20 евро
                 </p>
-                <p class="flex items-center text-gray-600 mb-6">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <p class="flex text-left text-gray-600 mb-2">
+                  <span class="w-4 h-4 mt-1 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -327,7 +327,7 @@ function Reiki() {
                   </span>
                   I ступень Рейки - 400 евро
                 </p>
-                <p class="flex items-center text-gray-600 mb-6">
+                <p class="flex items-center text-gray-600 mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
@@ -343,7 +343,7 @@ function Reiki() {
                   </span>
                   II ступень Рейки - 550 евро
                 </p>
-                <p class="flex items-center text-gray-600 mb-6">
+                <p class="flex items-center text-gray-600 mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
@@ -359,7 +359,7 @@ function Reiki() {
                   </span>
                   III ступень Рейки - 800 евро
                 </p>
-                <p class="flex items-center text-gray-600 mb-6">
+                <p class="flex items-center text-gray-600 mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
