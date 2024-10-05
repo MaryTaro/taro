@@ -203,10 +203,10 @@ function Taro() {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  длительность 1,5 часа - 80€
+                  Длительность 1,5 часа - 80€
                 </p>
-                <p class="flex text-left text-gray-600 mb-2">
-                  <span class="w-4 h-4 mt-1 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <p class="flex items-center text-gray-600 mb-2">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -219,7 +219,7 @@ function Taro() {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  в оплаченное время может входить Сеанс Рейки (20 мин) если
+                  В оплаченное время может входить Сеанс Рейки (20 мин) если
                   предупредили заранее или его можно добавить по тарифу<br/>
                   (обязательно предупредив заранее).
                 </p>
