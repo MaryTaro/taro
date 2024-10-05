@@ -172,7 +172,7 @@ function Reiki() {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  10 мин - 10 евро{" "}
+                  10 мин - 10 евро
                 </p>
                 <p class="flex items-center text-gray-600 mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -265,8 +265,8 @@ function Reiki() {
                   </span>
                   Защитный оберег - 20 евро
                 </p>
-                <p class="flex text-left text-gray-600 mb-2">
-                  <span class="w-4 h-4 mt-1 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                <p class="flex items-center text-gray-600 mb-2">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
