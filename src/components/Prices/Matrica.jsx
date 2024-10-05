@@ -84,7 +84,7 @@ function Matrica() {
               </li>
             </p>
           </div>
-          <div class="p-4 xl:w-full md:w-full w-full h-full">
+          <div class="xl:w-full md:w-full w-full h-full">
             <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
               <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
                 Стоимость (разные пакеты)
