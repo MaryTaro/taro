@@ -4,7 +4,7 @@ import hero_img from "../../assets/img/hero.jpg";
 function Hero() {
   return (
     <>
-      <section class="text-gray-600 mt-20 body-font">
+      <section class="text-gray-600 mt-24 body-font">
         <h1 class="title-font cursive sm:text-4xl text-3xl text-center mt-6 font-medium text-gray-900">
           Привет, меня зовут Мария!
           <br />Я - таролог, эмпант, нумеролог,

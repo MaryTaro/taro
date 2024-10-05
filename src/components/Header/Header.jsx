@@ -36,7 +36,8 @@ function Header() {
     <header
       className={`text-gray-600 body-font transition-transform duration-300 ${
         isVisible ? "translate-y-0" : "-translate-y-full"
-      } fixed w-full top-0 bg-white z-10`}
+      } fixed w-full top-0 bg-white z-10 shadow-md`}
+      style={{ padding: '0 2rem' }} // Adjust padding to match root
     >
       <div className="container mx-auto flex flex-wrap p-5 flex-row items-center justify-between">
         {/* Logo and Hamburger Menu in one line */}
@@ -115,7 +116,7 @@ function Header() {
 
       {/* Mobile Menu (Centered) */}
       {isOpen && (
-        <div className="md:hidden w-full flex justify-center mt-4">
+        <div className="md:hidden w-full flex justify-center mb-4">
           <nav className="flex flex-col items-center text-base">
             <a href="#taro" className="mb-2 hover:text-gray-900">
               Таро
