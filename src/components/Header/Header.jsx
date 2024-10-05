@@ -1,14 +1,43 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(true); // Tracks header visibility
+  const [lastScrollY, setLastScrollY] = useState(0); // Tracks the last scroll position
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
+  // Handle scroll direction
+  const handleScroll = () => {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > lastScrollY && currentScrollY > 100) {
+      // Scroll down and the user has scrolled past 100px, hide header
+      setIsVisible(false);
+    } else {
+      // Scroll up, show header
+      setIsVisible(true);
+    }
+
+    setLastScrollY(currentScrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollY]);
+
   return (
-    <header className="text-gray-600 body-font">
+    <header
+      className={`text-gray-600 body-font transition-transform duration-300 ${
+        isVisible ? "translate-y-0" : "-translate-y-full"
+      } fixed w-full top-0 bg-white z-10`}
+    >
       <div className="container mx-auto flex flex-wrap p-5 flex-row items-center justify-between">
         {/* Logo and Hamburger Menu in one line */}
         <div className="flex items-center justify-between w-full md:w-auto">
