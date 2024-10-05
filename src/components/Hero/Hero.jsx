@@ -4,14 +4,14 @@ import hero_img from "../../assets/img/hero.jpg";
 function Hero() {
   return (
     <>
-      <section class="max-w-6xl mx-auto text-gray-600 mt-24 body-font">
+      <section class="max-w-6xl mx-auto text-gray-600 mt-36 body-font">
         <h1 class="title-font cursive sm:text-4xl text-3xl text-center mt-6 font-medium text-gray-900">
           Привет, меня зовут Мария!
           <br />Я - таролог, эмпант, нумеролог,
           мастер Рейки
         </h1>
-        <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
-          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col-reverse flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mt-16 md:mb-0 items-center text-center">
             <p class="mb-8 leading-relaxed">
               Главное, что вы должны знать обо мне - я смогу помочь вам
               разобраться в сложной ситуации.

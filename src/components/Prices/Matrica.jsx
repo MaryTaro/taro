@@ -61,7 +61,7 @@ function Matrica() {
       {/* Цены на расчет матрицы судьбы */}
 
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-12 mx-auto">
+        <div class="container max-w-6xl px-5 py-12 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
             <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">
               Стоимость (разные пакеты)
