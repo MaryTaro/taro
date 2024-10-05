@@ -9,48 +9,47 @@ function Header() {
 
   return (
     <header className="text-gray-600 body-font">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        {/* Logo in the Center for Mobile */}
-        <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 mx-auto md:mx-0">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-            viewBox="0 0 24 24"
-          >
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-          </svg>
-          <span className="ml-3 text-xl">Mary</span>
-        </a>
+      <div className="container mx-auto flex flex-wrap p-5 flex-row items-center justify-between">
+        {/* Logo and Hamburger Menu in one line */}
+        <div className="flex items-center justify-between w-full md:w-auto">
+          {/* Logo */}
+          <a className="flex title-font font-medium items-center text-gray-900">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+              viewBox="0 0 24 24"
+            >
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span className="ml-3 text-xl">Mary</span>
+          </a>
 
-        {/* Hamburger Menu on the Right for Mobile */}
-        <button
-          className="md:hidden ml-auto text-gray-900 focus:outline-none"
-          onClick={toggleMenu}
-        >
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            viewBox="0 0 24 24"
+          {/* Hamburger Menu for Mobile */}
+          <button
+            className="md:hidden ml-auto text-gray-900 focus:outline-none"
+            onClick={toggleMenu}
           >
-            <path d="M4 6h16M4 12h16m-7 6h7"></path>
-          </svg>
-        </button>
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+            >
+              <path d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+          </button>
+        </div>
 
-        {/* Navigation Menu */}
-        <nav
-          className={`${
-            isOpen ? "block" : "hidden"
-          } md:flex md:ml-auto md:mr-auto flex flex-col md:flex-row items-center text-base justify-center`}
-        >
+        {/* Desktop Navigation Menu */}
+        <nav className="hidden md:flex md:ml-auto flex-row items-center text-base justify-center">
           <a href="#taro" className="mr-5 hover:text-gray-900">
             Таро
           </a>
@@ -62,11 +61,6 @@ function Header() {
           </a>
           <a href="#testimonials" className="mr-5 hover:text-gray-900">
             Отзывы
-          </a>
-
-          {/* Контакты inside the menu for mobile */}
-          <a href="#contact" className="mr-5 hover:text-gray-900 md:hidden">
-            Контакты
           </a>
         </nav>
 
@@ -89,6 +83,29 @@ function Header() {
           </svg>
         </a>
       </div>
+
+      {/* Mobile Menu (Centered) */}
+      {isOpen && (
+        <div className="md:hidden w-full flex justify-center mt-4">
+          <nav className="flex flex-col items-center text-base">
+            <a href="#taro" className="mb-2 hover:text-gray-900">
+              Таро
+            </a>
+            <a href="#reiki" className="mb-2 hover:text-gray-900">
+              Рейки
+            </a>
+            <a href="#matrica" className="mb-2 hover:text-gray-900">
+              Матрица судьбы
+            </a>
+            <a href="#testimonials" className="mb-2 hover:text-gray-900">
+              Отзывы
+            </a>
+            <a href="#contact" className="hover:text-gray-900">
+              Контакты
+            </a>
+          </nav>
+        </div>
+      )}
     </header>
   );
 }
