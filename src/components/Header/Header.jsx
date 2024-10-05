@@ -37,9 +37,8 @@ function Header() {
       className={`text-gray-600 body-font transition-transform duration-300 ${
         isVisible ? "translate-y-0" : "-translate-y-full"
       } fixed w-full top-0 bg-white z-10 shadow-md`}
-      style={{ padding: '0 2rem' }} // Adjust padding to match root
     >
-      <div className="container mx-auto flex flex-wrap p-5 flex-row items-center justify-between">
+      <div className="max-w-6xl mx-auto flex flex-wrap p-5 items-center justify-between">
         {/* Logo and Hamburger Menu in one line */}
         <div className="flex items-center justify-between w-full md:w-auto">
           {/* Logo */}

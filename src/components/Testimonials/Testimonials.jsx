@@ -113,7 +113,7 @@ const Testimonial = ({ text, name, date, img }) => (
 
 function Testimonials() {
   return (
-    <section id="testimonials" className="text-gray-600 body-font">
+    <section id="testimonials" className="max-w-6xl mx-auto text-gray-600 body-font">
       <div className="container px-5 py-12 mx-auto">
         <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">
           Отзывы

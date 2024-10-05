@@ -4,7 +4,7 @@ import hero_img from "../../assets/img/hero.jpg";
 function Hero() {
   return (
     <>
-      <section class="text-gray-600 mt-24 body-font">
+      <section class="max-w-6xl mx-auto text-gray-600 mt-24 body-font">
         <h1 class="title-font cursive sm:text-4xl text-3xl text-center mt-6 font-medium text-gray-900">
           Привет, меня зовут Мария!
           <br />Я - таролог, эмпант, нумеролог,
@@ -17,7 +17,6 @@ function Hero() {
               разобраться в сложной ситуации.
             </p>
             <p class="mb-8 leading-relaxed">
-              {" "}
               Свою работу с картами Таро я начала в конце августа 2016 года. Уже
               на протяжении 7 лет я помогаю людям со всего мира, отвечая на
               волнующие вопросы с помощью карт.

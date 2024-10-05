@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <>
-      <section className="text-gray-600 text-center body-font">
+      <section className="max-w-6xl mx-auto text-gray-600 text-center body-font">
         <div className="container px-5 py-12 mx-auto flex flex-wrap flex-col md:flex-row items-center">
           {/* Heading */}
           <h2 className="sm:text-3xl text-2xl text-gray-900 font-medium title-font cursive mb-4 md:mb-0 md:w-2/5 md:text-left">
