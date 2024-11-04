@@ -124,7 +124,6 @@ function Testimonials() {
               key={testimonial.id}
               text={testimonial.text}
               name={testimonial.name}
-              date={testimonial.date}
               img={testimonial.img}
             />
           ))}

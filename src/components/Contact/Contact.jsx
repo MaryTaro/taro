@@ -13,7 +13,7 @@ function Contact() {
               Оставьте ваши контакты, и я свяжусь с вами в скором времени.
             </p>
           </div>
-          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+          <form class="lg:w-1/2 md:w-2/3 mx-auto" netlify>
             <div class="flex flex-wrap -m-2">
               <div class="p-2 w-1/2">
                 <div class="relative">
@@ -62,7 +62,7 @@ function Contact() {
                 <a href="mailto:taroireiki@gmail.com" class="text-indigo-500">taroireiki@gmail.com</a>
               </div>
             </div>
-          </div>
+          </form>
         </div>
       </section>
     </>
