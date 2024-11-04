@@ -3,7 +3,10 @@ import React from "react";
 function Contact() {
   return (
     <>
-      <section id="contact" class="max-w-6xl mx-auto text-gray-600 body-font relative">
+      <section
+        id="contact"
+        class="max-w-6xl mx-auto text-gray-600 body-font relative"
+      >
         <div class="container px-5 py-12 mx-auto">
           <div class="flex flex-col text-center w-full mb-12">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
@@ -13,11 +16,17 @@ function Contact() {
               Оставьте ваши контакты, и я свяжусь с вами в скором времени.
             </p>
           </div>
-          <form name="Contact" method="post" data-netlify="true" onSubmit="submit" class="lg:w-1/2 md:w-2/3 mx-auto">
+          <form
+            name="Contact"
+            method="post"
+            data-netlify="true"
+            onSubmit="submit"
+            class="lg:w-1/2 md:w-2/3 mx-auto"
+          >
+            <input type="hidden" name="form-name" value="Contact" />
             <div class="flex flex-wrap -m-2">
               <div class="p-2 w-1/2">
                 <div class="relative">
-                  <input type="hidden" name="form-name" value="Contact" />
                   <label for="name" class="leading-7 text-sm text-gray-600">
                     Имя
                   </label>
@@ -55,12 +64,17 @@ function Contact() {
                 </div>
               </div>
               <div class="p-2 w-full">
-                <button type="submit" class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                <button
+                  type="submit"
+                  class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                >
                   Отправить
                 </button>
               </div>
               <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a href="mailto:taroireiki@gmail.com" class="text-indigo-500">taroireiki@gmail.com</a>
+                <a href="mailto:taroireiki@gmail.com" class="text-indigo-500">
+                  taroireiki@gmail.com
+                </a>
               </div>
             </div>
           </form>
