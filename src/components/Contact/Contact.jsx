@@ -13,7 +13,7 @@ function Contact() {
               Оставьте ваши контакты, и я свяжусь с вами в скором времени.
             </p>
           </div>
-          <form name="Contact" method="post" data-netlify="true" onSubmit="submit" class="lg:w-1/2 md:w-2/3 mx-auto" netlify>
+          <form name="Contact" method="post" data-netlify="true" onSubmit="submit" class="lg:w-1/2 md:w-2/3 mx-auto">
             <div class="flex flex-wrap -m-2">
               <div class="p-2 w-1/2">
                 <div class="relative">
