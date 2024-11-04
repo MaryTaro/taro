@@ -13,10 +13,11 @@ function Contact() {
               Оставьте ваши контакты, и я свяжусь с вами в скором времени.
             </p>
           </div>
-          <form class="lg:w-1/2 md:w-2/3 mx-auto" netlify>
+          <form name="Contact" method="post" data-netlify="true" onSubmit="submit" class="lg:w-1/2 md:w-2/3 mx-auto" netlify>
             <div class="flex flex-wrap -m-2">
               <div class="p-2 w-1/2">
                 <div class="relative">
+                  <input type="hidden" name="form-name" value="Contact" />
                   <label for="name" class="leading-7 text-sm text-gray-600">
                     Имя
                   </label>
@@ -54,7 +55,7 @@ function Contact() {
                 </div>
               </div>
               <div class="p-2 w-full">
-                <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                <button type="submit" class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                   Отправить
                 </button>
               </div>
