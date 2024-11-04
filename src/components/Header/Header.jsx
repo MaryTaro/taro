@@ -55,7 +55,7 @@ function Header() {
             >
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
-            <span className="ml-3 text-xl">Mary</span>
+            <span className="ml-3 text-xl">Maria Taro</span>
           </a>
 
           {/* Hamburger Menu for Mobile */}
