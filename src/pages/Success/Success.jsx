@@ -1,14 +1,10 @@
 import React from "react";
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
 
 function Success() {
   return (
-    <>
-      <Header />
+    <div>
         <p>Спасибо, ваша заявка принята!</p>
-      <Footer />
-    </>
+    </div>
   );
 }
 export default Success;
