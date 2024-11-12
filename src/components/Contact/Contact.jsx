@@ -16,7 +16,22 @@ function Contact() {
               Оставьте ваши контакты, и я свяжусь с вами в скором времени.
             </p>
           </div>
-          <form
+          <form name="contact" netlify>
+            <p>
+              <label>
+                Name <input type="text" name="name" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Email <input type="email" name="email" />
+              </label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+          {/* <form
             name="Contact"
             method="post"
             data-netlify="true"
@@ -77,7 +92,7 @@ function Contact() {
                 </a>
               </div>
             </div>
-          </form>
+          </form> */}
         </div>
       </section>
     </>
