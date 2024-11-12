@@ -16,36 +16,14 @@ function Contact() {
               Оставьте ваши контакты, и я свяжусь с вами в скором времени.
             </p>
           </div>
-          <form name="contact" method="post">
-            <input type="hidden" name="form-name" value="contact" />
-            <p>
-              <label>
-                Your Name: <input type="text" name="name" />
-              </label>
-            </p>
-            <p>
-              <label>
-                Your Email: <input type="email" name="email" />
-              </label>
-            </p>
-            <p>
-              <label>
-                Message: <textarea name="message"></textarea>
-              </label>
-            </p>
-            <p>
-              <button type="submit">Send</button>
-            </p>
-          </form>
-
-          {/* <form
-            name="Contact"
+          <form
+            name="contact"
             method="post"
             data-netlify="true"
             onSubmit="submit"
             class="lg:w-1/2 md:w-2/3 mx-auto"
           >
-            <input type="hidden" name="form-name" value="Contact" />
+            <input type="hidden" name="form-name" value="contact" />
             <div class="flex flex-wrap -m-2">
               <div class="p-2 w-1/2">
                 <div class="relative">
@@ -99,7 +77,7 @@ function Contact() {
                 </a>
               </div>
             </div>
-          </form> */}
+          </form>
         </div>
       </section>
     </>
